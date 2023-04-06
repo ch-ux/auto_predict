@@ -9,8 +9,8 @@ from PIL imort image
 model = pickle.load(open('RigeModel.pkl', 'rb'))
 
 #@app.route('/')
-def home():
-    return render_template('index.html')
+def welcome():
+    return "Welcome All"
 
 def predict_autmobile_price(horsepower,curb-weight,engine-size,highway-mpg):
     
