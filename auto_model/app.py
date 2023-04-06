@@ -1,9 +1,10 @@
 import numpy as np
-import pandas as pd
-#from flask import Flask, request, jsonify, render_template
 import pickle
-import stramlit as st
-from PIL imort image
+import pandas as pd
+#from flasgger import Swagger
+import streamlit as st 
+
+from PIL import Image
 
 #app = Flask(__name__)
 model = pickle.load(open('RigeModel.pkl', 'rb'))
