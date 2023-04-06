@@ -74,5 +74,5 @@ def main():
     #return render_template('index.html', prediction_text='automobile price should be $ {}'.format(output))
 
 
-if __name__ == "__main__":
-    app.run(debug=True)
+if __name__=='__main__':
+    main()
